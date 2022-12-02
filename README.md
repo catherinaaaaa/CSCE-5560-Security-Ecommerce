@@ -8,8 +8,8 @@
 ### Deadline: Dec. 6 - Presentation Demo
 #### Assignments:
 - Sushan: Phishing email and website.
-- Divya: SQL server that will be hacked.
-- Santhoshini: SQL server that will be hacked.
+- Divya: Documentation & Hacking
+- Santhoshini: Documentation & Hacking
 - Catherine: SQL server && Integration && Testing
 - Matthew: Create script that takes control of victims computer and SQL injection. 
 #### ***Known Issues:***
